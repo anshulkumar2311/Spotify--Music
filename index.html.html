@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav> 
+                  <ul id="MenuItems">
+                    <a href="a.html">Home</a>
+                    <!-- <a href="#">Products</a> -->
+                    <a href="About.html">About</a>
+                    <a href="#foot">Contact</a>
+                    <a href="#foot">Account</a>
+                    <!-- <a href="#" class="flex-align-right">Login/Sinup</a> -->
+                  </ul>
+            </nav>
+            <!-- <img src="images/cart.png" width="30px" height="30px"> -->
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="main">
+    <div class="con1">
+        <div class="const1">
+        <div class="box1">
+            <h2>Punjabi Collection</h2><br>
+            <a href="Punjabi.html">
+            <img src="Punjabi.jpg" alt=""></a>
+        </div>
+        <div class="box1">
+            <h2>English Collection</h2><br>
+            <a href="English.html">
+            <img src="English.jpg" alt=""></a>
+        </div>
+        <div class="box1">
+            <h3>Bollywood Collection</h3><br>
+            <a href="Hindi.html">
+            <img src="Hindi.jpg" alt=""></a>
+        </div>
+        </div>
+        <div class="const2">
+                <div class="box2">
+                    <h2>Trending Songs</h2><br>
+                    <a href="Trending.html">
+                    <img src="Trending.png" alt=""></a>
+                </div>
+                <div class="box2">
+                    <h2>My Favourite</h2><br>
+                    <a href="Fav.html">
+                    <img src="Fav.jpg" alt=""></a>
+                </div>
+                <div class="box2">
+                    <h2>2021 Best</h2><br>
+                    <a href="Hindi1.html">
+                    <img src="Hindi2.jpg" alt=""></a>
+                </div>
+        </div>
+    </div>
+</div>
+    
+           
+<div id="foot" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" >
+                    <img src="images/app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="images/logo.png">
+               <p>Thanks For Visiting.</p>
+           </div>
+           <div class="footer-col-3">
+               <h3>Follow More</h3>
+               <a href="#">Coupons</a><br>
+               <a href="#">Return Policy</a><br>
+               <a href="#">Blog Post</a><br>
+               <a href="#">Join Affiliate</a><br>
+           </div>
+           <div class="footer-col-4">
+               <h3>Follow Us</h3>
+               <a href="#">Facebook</a><br>
+               <a href="#">Twitter</a><br>
+               <a href="#">Instagram</a><br>
+               <a href="#">Youtube</a><br>
+           </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+                <!-- js for toggle menu  -->
+                <script>
+                    var MenuItems = document.getElementById("MenuItems");
+                    MenuItems.style.maxHeight= "0px";
+       
+                    function menutoggle(){
+                        if(MenuItems.style.maxHeight == "0px"){
+                            MenuItems.style.maxHeight="200px";
+                        }
+                        else{
+                           MenuItems.style.maxHeight="0px";
+                        }
+                    }
+       
+                </script>
+     
+</body>
+</html>
