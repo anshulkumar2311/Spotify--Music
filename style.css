@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+}
+
+.brand img{
+    height: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    /* padding: 20px; */
+    height: 50px;
+    background-color: black;
+    color: white;
+    list-style: none;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+nav{
+    font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.container1{
+     margin: 30px;
+     padding: 20px;
+     height: 500px;
+     width: auto;
+     background-color: wheat;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+
+.box1{
+    float: left;
+    display: flexbox;
+    height: 150px;
+    width: 250px;
+    background-color: violet;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 70px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.box2{
+    float: left;
+    display: flexbox;
+    height: 150px;
+    width: 250px;
+    background-color: violet;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 70px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.heading{
+    text-align: center;
+    color: red
+}
+
+.poster{
+    height: 100px;
+    width: 200px;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.songName{
+    width: 50%;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('G1a.png');
+}
+.songBanner img{
+    align-items: center;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#myProgessBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12PX 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+    text-align: center;
+}
+.songItemPlay{
+    align-items: center;
+    text-align: center;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timespan{
+    margin: 0 33px;
+    text-align: center;
+    align-items: center;
+}
+.timespan i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
+}
+/* @media screen and (max-width:600px){
+    .container1{
+        height: 1200px;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        align-self: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    .box1, .box2{
+        /* height: 100px;
+        width: 100px; */
+        /* padding: 0%;
+        text-align: center;
+    }
+
+    .nav ul{
+        width: 100%;
+        background-color: blue;
+    }
+
+    .songItemContainer{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .box1, .box2{
+        /* height: 100px;
+        width: 100px; */
+        /* padding: 0%;
+        text-align: center;
+    }
+
+    .nav ul{
+        background-color: black;
+    }
+/* */
+
+@media screen and (max-width:600px) {
+    .container{
+        text-align: center;
+        height: 800px;
+    }
+    .lcontainer{
+        text-align: center;
+     }
+    body{
+        text-align: center;
+        align-content: center;
+        text-align: center;
+    }
+    .scontainer ,.scontainer2{
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 15%;
+    }
+}
